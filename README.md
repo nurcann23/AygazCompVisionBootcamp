@@ -23,17 +23,17 @@ To enhance the diversity of the training set, salt and pepper noise was added:
   - Dropout Layer: A 50% dropout was applied to prevent overfitting.  
 
 - Model Performance:
-  - Training accuracy: 88.98%  
-  - Testing accuracy: 63.79%  
+  - Accuracy: 90.36%
+  - Val_accuracy: 81.13%
 
 5. Manipulation of Test Data
 - Brightness Reduction: 
   - The brightness of the test images was reduced.  
-  - The manipulated dataset was tested, and accuracy dropped to 47.79%.  
+  - The manipulated dataset was tested, and accuracy dropped to 63.16%.  
 
 - Color Balancing Algorithm: 
-  - The Gray World algorithm was applied to the manipulated test data to correct color imbalances.  
-  - After applying this algorithm, accuracy further dropped to 26.61%.  
+  - The Gray World algorithm was applied to the manipulated test data.
+  - After applying this algorithm, accuracy further dropped to 19.89%  
 
 6. Conclusion:  
 - Manipulations significantly impacted model performance.  
